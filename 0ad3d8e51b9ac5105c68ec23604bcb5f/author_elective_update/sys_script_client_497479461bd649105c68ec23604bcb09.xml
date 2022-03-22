@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>debits_in_assets</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>debits</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+// 	alert('hii');
+    var salary = Number(g_form.getValue('debits_in_salary'));
+    var assets = Number(g_form.getValue('debits_in_assets'));
+    var total = salary + assets;
+// 	alert('hii');
+	alert(total);
+// 	 g_form.setValue('total_debits', 'total');
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-19 05:44:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>497479461bd649105c68ec23604bcb09</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>debits</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_update_name>sys_script_client_497479461bd649105c68ec23604bcb09</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 12:18:42</sys_updated_on>
+        <table>x_775264_smart_man_accounts</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</application>
+        <file_path/>
+        <instance_id>a456b0dc1b007410c8432f8dee4bcb3a</instance_id>
+        <instance_name>dev113567</instance_name>
+        <name>sys_script_client_497479461bd649105c68ec23604bcb09</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;debits_in_assets&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;debits&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+// 	alert('hii');
+    var salary = Number(g_form.getValue('debits_in_salary'));
+    var assets = Number(g_form.getValue('debits_in_assets'));
+    var total = salary + assets;
+// 	alert('hii');
+	alert(total);
+// 	 g_form.setValue('total_debits', 'total');
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-19 05:44:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;497479461bd649105c68ec23604bcb09&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;debits&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Smart Management" source="x_775264_smart_man"&gt;0ad3d8e51b9ac5105c68ec23604bcb5f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Smart Management"&gt;0ad3d8e51b9ac5105c68ec23604bcb5f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_497479461bd649105c68ec23604bcb09&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-21 12:18:42&lt;/sys_updated_on&gt;&lt;table&gt;x_775264_smart_man_accounts&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>322085629</payload_hash>
+        <record_name>debits</record_name>
+        <reverted_from/>
+        <source>86d39c6d1b9ac5105c68ec23604bcba3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 12:18:42</sys_created_on>
+        <sys_id>2aa26d3e1b9ac9105c68ec23604bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fac6a50020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 12:18:42</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>62a26d3ee89ac9106bc3fe2e0c65eec5</update_guid>
+        <update_guid_history>62a26d3ee89ac9106bc3fe2e0c65eec5:322085629,1352a93ec19ac9106d1491d3661a0d31:2079540801,ecc84496b99e49104a54104f7c88aad2:921736837,43270856669e491041eaab8affb72d4a:1490614740,5ad48016fa9e491094f5086cdd4683d8:2013179022,e9948016289e49109961e847ecdb4b31:1112727957,e844c4d2f69e49104915789ee4c9a3dc:-1894852531,97b38c5ec95a4910c01245a387c76b18:-1626159093,a67b710e58d6491089b7fad15a38f254:-1551328360,9cda3d8a0dd64910330b73d40d1e0088:1573866523,12f9bd8aabd64910475b568b4970a12d:964750067,14d93d4ab1d64910e3f1fd448f2eb791:-165003557,4aa8b54a03d64910b968b6bb360c29bb:-865759377,a068754a94d649103423de12f86b9598:-1473660223,3ab635c62fd64910ed30182abc9b841a:-294107962,40553d866ed649100f5e5c1c57e7abba:1144270251</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 12:19:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>565fda3cf02242a698f3b9d44dc0bed1</sys_id>
+        <sys_metadata>497479461bd649105c68ec23604bcb09</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>debits</sys_name>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_parent display_value="Accounts">582f18a51bdac5105c68ec23604bcbd2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_scope_delete display_value="">0730c331f99a43149695982f1c6f9c10</sys_scope_delete>
+        <sys_update_name>sys_script_client_497479461bd649105c68ec23604bcb09</sys_update_name>
+        <sys_update_version display_value="sys_script_client_497479461bd649105c68ec23604bcb09">2aa26d3e1b9ac9105c68ec23604bcbc5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 12:19:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>debits_in_salary</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>totbal</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var a = g_form.getValue('debits_in_salary');
+    alert(a);
+    var b = g_form.getIntValue('debits_in_salary');
+    alert(b);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-22 06:58:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea426d0f1b960d105c68ec23604bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>totbal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_update_name>sys_script_client_ea426d0f1b960d105c68ec23604bcbeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-22 06:58:22</sys_updated_on>
+        <table>x_775264_smart_man_accounts</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</application>
+        <file_path/>
+        <instance_id>a456b0dc1b007410c8432f8dee4bcb3a</instance_id>
+        <instance_name>dev113567</instance_name>
+        <name>sys_script_client_ea426d0f1b960d105c68ec23604bcbeb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;debits_in_salary&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;totbal&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var a = g_form.getValue('debits_in_salary');
+    alert(a);
+    var b = g_form.getIntValue('debits_in_salary');
+    alert(b);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-22 06:58:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ea426d0f1b960d105c68ec23604bcbeb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;totbal&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Smart Management" source="x_775264_smart_man"&gt;0ad3d8e51b9ac5105c68ec23604bcb5f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Smart Management"&gt;0ad3d8e51b9ac5105c68ec23604bcb5f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ea426d0f1b960d105c68ec23604bcbeb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-22 06:58:22&lt;/sys_updated_on&gt;&lt;table&gt;x_775264_smart_man_accounts&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1093676303</payload_hash>
+        <record_name>totbal</record_name>
+        <reverted_from/>
+        <source>86d39c6d1b9ac5105c68ec23604bcba3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-22 06:58:22</sys_created_on>
+        <sys_id>88f2214f1b960d105c68ec23604bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fb06b651c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-22 06:58:22</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c0f2214f24960d10ce28f879b36a0af3</update_guid>
+        <update_guid_history>c0f2214f24960d10ce28f879b36a0af3:1093676303</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-22 07:24:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>39bde252b98c433495d19e6820e5ba90</sys_id>
+        <sys_metadata>ea426d0f1b960d105c68ec23604bcbeb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>totbal</sys_name>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_parent display_value="Accounts">582f18a51bdac5105c68ec23604bcbd2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_scope_delete display_value="">0730c331f99a43149695982f1c6f9c10</sys_scope_delete>
+        <sys_update_name>sys_script_client_ea426d0f1b960d105c68ec23604bcbeb</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ea426d0f1b960d105c68ec23604bcbeb">88f2214f1b960d105c68ec23604bcbf3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-22 07:24:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

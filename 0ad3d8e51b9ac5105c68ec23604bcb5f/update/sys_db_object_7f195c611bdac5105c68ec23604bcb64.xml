@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>true</is_extendable>
+        <label>Employee Data</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_775264_smart_man_employee_data</name>
+        <number_ref display_value="SM_EMP">08299c611bdac5105c68ec23604bcb0a</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 09:44:59</sys_created_on>
+        <sys_id>7f195c611bdac5105c68ec23604bcb64</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Employee Data</sys_name>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_update_name>sys_db_object_7f195c611bdac5105c68ec23604bcb64</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 09:44:59</sys_updated_on>
+        <u_address/>
+        <u_color/>
+        <u_device_model/>
+        <u_device_name/>
+        <u_emp_id>global</u_emp_id>
+        <u_emp_name/>
+        <u_employee_name/>
+        <u_experience_fresher/>
+        <u_joined_date/>
+        <u_manufactured_date/>
+        <u_material_name/>
+        <u_mobile_number/>
+        <u_name/>
+        <u_number/>
+        <u_operating_system/>
+        <u_price/>
+        <u_processor/>
+        <u_profile_photo/>
+        <u_quantity/>
+        <u_role/>
+        <u_serial_number/>
+        <u_shop_location/>
+        <u_total_price/>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

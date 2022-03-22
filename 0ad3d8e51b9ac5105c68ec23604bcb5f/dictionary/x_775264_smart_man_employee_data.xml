@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee Data" max_length="40" name="x_775264_smart_man_employee_data" sizeclass="4" type="collection">
+        <element label="Aadhar Number" max_length="40" name="aadhar_number" type="integer"/>
+        <element label="Age" max_length="40" name="age" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Bank Details" mandatory="true" max_length="300" name="bank_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Current Address" mandatory="true" max_length="1000" name="current_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Experience" mandatory="true" max_length="40" name="experience" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="1yr" sequence="0" value="1yr"/>
+                <element inactive_on_update="false" label="Fresher" sequence="0" value="Fresher"/>
+                <element inactive_on_update="false" label="2yrs" sequence="1" value="2yrs"/>
+                <element inactive_on_update="false" label="3years" sequence="2" value="3years"/>
+                <element inactive_on_update="false" label="&gt;5yrs" sequence="3" value="&gt;5yrs"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Father Name" mandatory="true" max_length="40" name="father_name" type="string"/>
+        <element label="Mobile Number" mandatory="true" max_length="40" name="mobile_number" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Mother Name" mandatory="true" max_length="40" name="mother_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Emp ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Permanent Address" max_length="1000" name="permanent_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Qualification" mandatory="true" max_length="40" name="qualification" type="string">
+            <choice>
+                <element inactive_on_update="false" label="UG" sequence="0" value="UG"/>
+                <element inactive_on_update="false" label="PG" sequence="1" value="PG"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="experience" dependent_on_field="experience" label="Position" max_length="40" name="role" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Fresher" inactive_on_update="false" label="HR junior" value="HR junior"/>
+                <element dependent_value="&gt;5yrs" inactive_on_update="false" label="HR Manager" value="HR Manager"/>
+                <element dependent_value="&gt;5yrs" inactive_on_update="false" label="Project manager" sequence="0" value="Project manager"/>
+                <element dependent_value="2yrs" inactive_on_update="false" label="Project Senior" sequence="1" value="Project Senior"/>
+                <element dependent_value="Freshers" inactive_on_update="false" label="Project Junior" sequence="2" value="Project Junior"/>
+                <element dependent_value="3years" inactive_on_update="false" label="Store Manager" sequence="3" value="Store Manager"/>
+                <element dependent_value="Fresher" inactive_on_update="false" label="Store Junior" sequence="4" value="Store Junior"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Aadhar" mandatory="true" max_length="12" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

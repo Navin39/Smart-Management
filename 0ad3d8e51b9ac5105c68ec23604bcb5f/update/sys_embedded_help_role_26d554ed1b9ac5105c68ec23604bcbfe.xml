@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_775264_smart_man.sm_store_manager" name="x_775264_smart_man.sm_store_manager">ead554ed1b9ac5105c68ec23604bcbfb</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 09:30:42</sys_created_on>
+        <sys_id>26d554ed1b9ac5105c68ec23604bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ead554ed1b9ac5105c68ec23604bcbfb</sys_name>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_26d554ed1b9ac5105c68ec23604bcbfe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 09:30:42</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

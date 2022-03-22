@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9adf9c651bdac5105c68ec23604bcb74" sys_domain="global" table="x_775264_smart_man_asset_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>material_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-21 18:39:11</sys_created_on>
+            <sys_id>c4c93ebe1b9ec9105c68ec23604bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_775264_smart_man_asset_details" sys_domain="global" view="Default view">9adf9c651bdac5105c68ec23604bcb74</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-21 18:39:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_materials</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-21 18:39:11</sys_created_on>
+            <sys_id>4cc93ebe1b9ec9105c68ec23604bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_775264_smart_man_asset_details" sys_domain="global" view="Default view">9adf9c651bdac5105c68ec23604bcb74</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-21 18:39:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_good_materials</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-21 18:39:11</sys_created_on>
+            <sys_id>ccc93ebe1b9ec9105c68ec23604bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_775264_smart_man_asset_details" sys_domain="global" view="Default view">9adf9c651bdac5105c68ec23604bcb74</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-21 18:39:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_bad_materials</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-21 18:39:11</sys_created_on>
+            <sys_id>40c93ebe1b9ec9105c68ec23604bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_775264_smart_man_asset_details" sys_domain="global" view="Default view">9adf9c651bdac5105c68ec23604bcb74</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-21 18:39:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>materials_cost</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-21 18:39:11</sys_created_on>
+            <sys_id>c0c93ebe1b9ec9105c68ec23604bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_775264_smart_man_asset_details" sys_domain="global" view="Default view">9adf9c651bdac5105c68ec23604bcb74</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-21 18:39:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>any_complains</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-21 18:39:11</sys_created_on>
+            <sys_id>44c93ebe1b9ec9105c68ec23604bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_775264_smart_man_asset_details" sys_domain="global" view="Default view">9adf9c651bdac5105c68ec23604bcb74</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-21 18:39:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-21 18:39:11</sys_created_on>
+            <sys_id>c4c93ebe1b9ec9105c68ec23604bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_775264_smart_man_asset_details" sys_domain="global" view="Default view">9adf9c651bdac5105c68ec23604bcb74</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-21 18:39:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_775264_smart_man_asset_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-17 10:14:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9adf9c651bdac5105c68ec23604bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_775264_smart_man_asset_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+            <sys_update_name>sys_ui_section_9adf9c651bdac5105c68ec23604bcb74</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-17 10:14:22</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

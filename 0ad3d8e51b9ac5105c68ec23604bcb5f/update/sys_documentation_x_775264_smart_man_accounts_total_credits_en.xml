@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total_credits" label="Total Credits" language="en" table="x_775264_smart_man_accounts">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total_credits</element>
+            <help/>
+            <hint/>
+            <label>Total Credits</label>
+            <language>en</language>
+            <name>x_775264_smart_man_accounts</name>
+            <plural>Total Credits</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-17 10:11:14</sys_created_on>
+            <sys_id>942f58a51bdac5105c68ec23604bcb18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total Credits</sys_name>
+            <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+            <sys_update_name>sys_documentation_x_775264_smart_man_accounts_total_credits_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-17 10:11:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="currency_type" table="x_775264_smart_man_accounts" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>currency_type</element>
+            <name>x_775264_smart_man_accounts</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 05:22:26</sys_created_on>
+            <sys_id>5130fd421bd649105c68ec23604bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>currency_type</sys_name>
+            <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+            <sys_update_name>sys_choice_x_775264_smart_man_accounts_currency_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 05:22:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INR</label>
+            <language>en</language>
+            <name>x_775264_smart_man_accounts</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 05:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d530fd421bd649105c68ec23604bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 05:22:26</sys_updated_on>
+            <value>INR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USD</label>
+            <language>en</language>
+            <name>x_775264_smart_man_accounts</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 05:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5930fd421bd649105c68ec23604bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 05:22:26</sys_updated_on>
+            <value>USD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SGD</label>
+            <language>en</language>
+            <name>x_775264_smart_man_accounts</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 05:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d30fd421bd649105c68ec23604bcbfc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 05:22:26</sys_updated_on>
+            <value>SGD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EURO</label>
+            <language>en</language>
+            <name>x_775264_smart_man_accounts</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 05:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd30fd421bd649105c68ec23604bcbfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 05:22:26</sys_updated_on>
+            <value>EURO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>POUNDS</label>
+            <language>en</language>
+            <name>x_775264_smart_man_accounts</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 05:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9130fd421bd649105c68ec23604bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 05:22:26</sys_updated_on>
+            <value>POUNDS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>YEN</label>
+            <language>en</language>
+            <name>x_775264_smart_man_accounts</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 05:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>553031821bd649105c68ec23604bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 05:22:26</sys_updated_on>
+            <value>YEN</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

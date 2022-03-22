@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Project details" max_length="40" name="x_775264_smart_man_project_details" sizeclass="5" type="collection">
+        <element attributes="encode_utf8=false" choice="1" label="Approval" max_length="32" name="approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="Pending"/>
+                <element inactive_on_update="false" label="checking" sequence="1" value="checking"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="Approved"/>
+            </choice>
+        </element>
+        <element label="Compeletion in %" max_length="38" name="compeletion_in" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Demo deploy date" max_length="40" name="demo_deploy_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Deploy date" max_length="40" name="deploy_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="start date" max_length="40" name="in_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Project ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Number of persons work in project" max_length="40" name="number_of_persons_work_in_project" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Name" mandatory="true" max_length="40" name="project_name" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Team" max_length="1024" name="team" reference="x_775264_smart_man_employee_data" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Works done upto now in detail" max_length="4000" name="works_done_upto_now_in_detail" type="journal"/>
+        <index name="index">
+            <element name="approval"/>
+        </index>
+    </element>
+</database>

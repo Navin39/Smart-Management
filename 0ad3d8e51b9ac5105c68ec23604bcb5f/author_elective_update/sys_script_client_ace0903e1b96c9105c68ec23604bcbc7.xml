@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date_of_birth</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ageCalculate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var dob = g_form.getValue('date_of_birth');
+    alert(dob);
+	
+	var year=g_form.getValue('dob',year);
+	alert(year);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 06:23:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ace0903e1b96c9105c68ec23604bcbc7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ageCalculate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_update_name>sys_script_client_ace0903e1b96c9105c68ec23604bcbc7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 06:27:53</sys_updated_on>
+        <table>x_775264_smart_man_employee_data</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</application>
+        <file_path/>
+        <instance_id>a456b0dc1b007410c8432f8dee4bcb3a</instance_id>
+        <instance_name>dev113567</instance_name>
+        <name>sys_script_client_ace0903e1b96c9105c68ec23604bcbc7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;date_of_birth&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ageCalculate&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var dob = g_form.getValue('date_of_birth');
+    alert(dob);
+	
+	var year=g_form.getValue('dob',year);
+	alert(year);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-21 06:23:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ace0903e1b96c9105c68ec23604bcbc7&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;ageCalculate&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Smart Management" source="x_775264_smart_man"&gt;0ad3d8e51b9ac5105c68ec23604bcb5f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Smart Management"&gt;0ad3d8e51b9ac5105c68ec23604bcb5f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ace0903e1b96c9105c68ec23604bcbc7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-21 06:27:53&lt;/sys_updated_on&gt;&lt;table&gt;x_775264_smart_man_employee_data&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-5161872</payload_hash>
+        <record_name>ageCalculate</record_name>
+        <reverted_from/>
+        <source>86d39c6d1b9ac5105c68ec23604bcba3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 06:27:53</sys_created_on>
+        <sys_id>eb52903e1b96c9105c68ec23604bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fab2920010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 06:27:53</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2752903e3896c9107fba7998894add05</update_guid>
+        <update_guid_history>2752903e3896c9107fba7998894add05:-5161872,e9b1983e2096c910d0ff9a10e3abb85f:-1491580395,857194fa7b96c91012c10c8cbe949ec3:1269181510</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 16:45:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4bae2b63114c4730a1f33b6e61bba041</sys_id>
+        <sys_metadata>ace0903e1b96c9105c68ec23604bcbc7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ageCalculate</sys_name>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_parent display_value="Employee Data">7f195c611bdac5105c68ec23604bcb64</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_scope_delete display_value="">0730c331f99a43149695982f1c6f9c10</sys_scope_delete>
+        <sys_update_name>sys_script_client_ace0903e1b96c9105c68ec23604bcbc7</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ace0903e1b96c9105c68ec23604bcbc7">eb52903e1b96c9105c68ec23604bcb05</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 16:45:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

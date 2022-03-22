@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Accounts" max_length="40" name="x_775264_smart_man_accounts" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="Pending"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="Approved"/>
+            </choice>
+        </element>
+        <element label="Asset Debits" max_length="40" name="asset_debits" type="integer"/>
+        <element label="Balance" max_length="40" name="balance" read_only="true" type="integer"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Balance Available" max_length="20" name="balance_available" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Credits in Projects" max_length="20" name="credits_in_projects" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="GBP" label="Currency Type" max_length="40" name="currency_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="INR" sequence="0" value="INR"/>
+                <element inactive_on_update="false" label="USD" sequence="1" value="USD"/>
+                <element inactive_on_update="false" label="SGD" sequence="2" value="SGD"/>
+                <element inactive_on_update="false" label="EURO" sequence="3" value="EURO"/>
+                <element inactive_on_update="false" label="POUNDS" sequence="4" value="POUNDS"/>
+                <element inactive_on_update="false" label="YEN" sequence="5" value="YEN"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Debits in Assets" max_length="20" name="debits_in_assets" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Debits in Salary" max_length="20" name="debits_in_salary" type="string"/>
+        <element label="Debits Total" max_length="40" name="debits_total" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Account ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Project Credits" max_length="40" name="project_credits" type="integer"/>
+        <element label="Salary Debits" max_length="40" name="salary_debits" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Total Credits" max_length="20" name="total_credits" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Total Debits" max_length="20" name="total_debits" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Smart Management">0d5f1ce11bdac5105c68ec23604bcbc6</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_775264_smart_man_asset_details</name>
+        <order>5</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 10:12:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c15f1ca51bdac5105c68ec23604bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_update_name>sys_app_module_c15f1ca51bdac5105c68ec23604bcba4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 10:12:06</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <u_address/>
+        <u_alternate_mobile_number/>
+        <u_date_of_join/>
+        <u_device_name/>
+        <u_emp_id/>
+        <u_emp_name/>
+        <u_experience/>
+        <u_in_date_and_time/>
+        <u_mobile_number/>
+        <u_number>global</u_number>
+        <u_order_no/>
+        <u_profile_image/>
+        <u_role/>
+        <u_specifications/>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <fx_price action="DELETE" query="id=c15f1ca51bdac5105c68ec23604bcba4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</application>
+        <file_path/>
+        <instance_id>a456b0dc1b007410c8432f8dee4bcb3a</instance_id>
+        <instance_name>dev113567</instance_name>
+        <name>sys_app_module_c15f1ca51bdac5105c68ec23604bcba4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Smart Management">0d5f1ce11bdac5105c68ec23604bcbc6</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_775264_smart_man_asset_details</name><order>5</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-17 10:12:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c15f1ca51bdac5105c68ec23604bcba4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package><sys_policy/><sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope><sys_update_name>sys_app_module_c15f1ca51bdac5105c68ec23604bcba4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-17 10:12:06</sys_updated_on><timeline_page/><title>Create New</title><u_address/><u_alternate_mobile_number/><u_date_of_join/><u_device_name/><u_emp_id/><u_emp_name/><u_experience/><u_in_date_and_time/><u_mobile_number/><u_number>global</u_number><u_order_no/><u_profile_image/><u_role/><u_specifications/><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module><fx_price action="delete_multiple" query="id=c15f1ca51bdac5105c68ec23604bcba4"/></record_update>]]></payload>
+        <payload_hash>1951494259</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>86d39c6d1b9ac5105c68ec23604bcba3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 10:12:06</sys_created_on>
+        <sys_id>8d5f1ca51bdac5105c68ec23604bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f975cf7d40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 10:12:06</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c55f1ca52fdac510c3eb19b3ae7ddaa5</update_guid>
+        <update_guid_history>c55f1ca52fdac510c3eb19b3ae7ddaa5:1951494259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">c3d3e8a91bdac5105c68ec23604bcbc2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 10:31:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>586ad9b602444d4aac1e5dfe015ddb64</sys_id>
+        <sys_metadata>c15f1ca51bdac5105c68ec23604bcba4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="Smart Management" source="x_775264_smart_man">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Management">0ad3d8e51b9ac5105c68ec23604bcb5f</sys_scope>
+        <sys_scope_delete display_value="">0730c331f99a43149695982f1c6f9c10</sys_scope_delete>
+        <sys_update_name>sys_app_module_c15f1ca51bdac5105c68ec23604bcba4</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c15f1ca51bdac5105c68ec23604bcba4">8d5f1ca51bdac5105c68ec23604bcba5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 10:31:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
